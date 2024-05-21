@@ -14,9 +14,7 @@ $ sudo zypper in leocad
 
 There is [stl.tar.xz](https://github.com/lkocman/geeko-brickz/blob/main/stl.tar.xz) containing all pieces. Alternatively [plate.stl](https://github.com/lkocman/geeko-brickz/blob/main/plate.stl) file is an export of plate containing all required pieces in [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer).
 
-stl.tar.xz can be generated as follows.
-
-The stl.tar.xz was p
+The stl.tar.xz archive can be generated as follows.
 
 ```
 $ git clone git@github.com:kristov/ldraw2stl.git
@@ -31,7 +29,7 @@ $ tar -cvf stl.tar.xz stl
 ## 3d printing bricks
 
 I do not have a usable gcode yet. Any contribution is welcome!
-For now import [plate.stl](https://github.com/lkocman/geeko-brickz/blob/main/plate.stl) into e.g. [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer) you'll have to play with supports on individual parts.
+For now import files from [stl.tar.xz](https://github.com/lkocman/geeko-brickz/blob/main/stl.tar.xz ) into e.g. [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer) you'll have to play with supports on individual parts.
 
 
 ## What to contribute?
