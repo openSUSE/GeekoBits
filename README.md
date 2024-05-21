@@ -12,17 +12,20 @@ $ sudo zypper in leocad
 
 ## STL
 
-The [plate.stl](https://github.com/lkocman/geeko-brickz/blob/main/plate.stl) file is an export of plate containing all required pieces in [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer).
-You can export them individually by running following. 
+There is [stl.tar.xz](https://github.com/lkocman/geeko-brickz/blob/main/stl.tar.xz) containing all pieces. Alternatively [plate.stl](https://github.com/lkocman/geeko-brickz/blob/main/plate.stl) file is an export of plate containing all required pieces in [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer).
 
-**The convert script processes manually maintained [partnums.txt](https://github.com/lkocman/geeko-brickz/blob/main/partnums.txt), not the model.ldr!** Please make sure to update partnums.txt with your changes from leocad.
+stl.tar.xz can be generated as follows.
+
+The stl.tar.xz was p
 
 ```
 $ git clone git@github.com:kristov/ldraw2stl.git
 $ git clone git@github.com:lkocman/geeko-brickz.git
 $ cd geeko-brickz
-$ ./convert.sh
+# Following will download complete.zip from ldraw library and match files from manually maintained [partnums.txt](https://github.com/lkocman/geeko-brickz/blob/main/partnums.txt)
+$ ./convert.sh 
 $ ls stl/ # these are the files you want to import to e.g. slicer
+$ tar -cvf stl.tar.xz stl
 ```
 
 ## 3d printing bricks
