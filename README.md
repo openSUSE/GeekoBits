@@ -29,11 +29,12 @@ $ tar -cvf stl.tar.xz stl
 ## 3d printing bricks
 
 I do not have a usable gcode yet. Any contribution is welcome!
-For now import files from [stl.tar.xz](https://github.com/lkocman/geeko-brickz/blob/main/stl.tar.xz ) into e.g. [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer) you'll have to play with supports on individual parts.
+For now import files from [stl.tar.xz](https://github.com/lkocman/geeko-brickz/blob/main/stl.tar.xz ) into e.g. [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer). You'll have to play with supports on individual parts.
 
 
 ## What to contribute?
 
+See [our issues](https://github.com/lkocman/geeko-brickz/issues])
 Improvements to model, to make it more aligned with the [geeko mascot](https://github.com/openSUSE/artwork/blob/master/logos/official/geeko-color.svg).
 Specifically tail and head.
 
