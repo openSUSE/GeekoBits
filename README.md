@@ -12,7 +12,7 @@ $ sudo zypper in leocad
 
 ## STL
 
-The plate.stl file is an export of plate containing all required pieces in [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer).
+The [plate.stl](https://github.com/lkocman/geeko-brickz/blob/main/plate.stl) file is an export of plate containing all required pieces in [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer).
 You can export them individually by running following. 
 
 **The convert script processes manually maintained [partnums.txt](https://github.com/lkocman/geeko-brickz/blob/main/partnums.txt), not the model.ldr!** Please make sure to update partnums.txt with your changes from leocad.
@@ -28,7 +28,7 @@ $ ls stl/ # these are the files you want to import to e.g. slicer
 ## 3d printing bricks
 
 I do not have a usable gcode yet. Any contribution is welcome!
-For now import plate.stl into e.g. [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer) you'll have to play with supports on individual parts.
+For now import [plate.stl](https://github.com/lkocman/geeko-brickz/blob/main/plate.stl) into e.g. [Prusa Slicer](https://flathub.org/apps/com.prusa3d.PrusaSlicer) you'll have to play with supports on individual parts.
 
 
 ## What to contribute?
