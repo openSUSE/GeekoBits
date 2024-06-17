@@ -36,6 +36,6 @@ See [our issues](https://github.com/openSUSE/GeekoBits/issues)
 Improvements to model, to make it more aligned with the [geeko mascot](https://github.com/openSUSE/artwork/blob/master/logos/official/geeko-color.svg).
 Specifically tail and head.
 
-And the most wanted at the moment is the GCODE!!!
+And the most wanted at the moment is ready-to-print stl (including supports etc) or at least a GCODE.
 
 
