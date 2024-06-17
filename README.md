@@ -1,4 +1,4 @@
-# geeko-brickz
+# GeekoBits
 A 3d printable model of brick-made openSUSE mascot geeko done in [LeoCAD](https://www.leocad.org/)
 A remix of the original set 30477.
 
