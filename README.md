@@ -19,7 +19,7 @@ Making stl.tar.xz archive with all used brick stls
 ```
 $ git clone git@github.com:kristov/ldraw2stl.git
 $ git clone git@github.com:openSUSE/GeekoBits.git
-$ cd geeko-brickz
+$ cd geeko-bits
 # Following will download complete.zip from the ldraw library and match files from the model.ldr
 $ ./fetch_stls.sh
 ```
