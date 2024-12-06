@@ -3,7 +3,8 @@ A 3d printable model of brick-made openSUSE mascot geeko done in [LeoCAD](https:
 [LDraw gallery](https://www.ldraw.org/). 
 
 Currently based on a custom model SUSE Linux s.r.o. purchased from Mr. Menzl / kostkyvplzni.
-The original color on the picture is “Lime” . I did use “Bright Green” in LeoCAD
+
+The original color on the picture is “Lime” . I did use “Bright Green” in LeoCAD.
 
 See the project at [printables.com](https://www.printables.com/model/1098992-opensuse-chameleon-geeko-from-ldraw-blocks)
 
